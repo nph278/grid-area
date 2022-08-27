@@ -1,0 +1,12 @@
+[package]
+name = "grid-area"
+version = "1.0.0"
+edition = "2021"
+description = "A library for manipulating 2d grids"
+homepage = "https://github.com/nph278/grid-area"
+repository = "https://github.com/nph278/grid-area"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
