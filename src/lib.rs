@@ -85,7 +85,7 @@ pub fn adjacent_cell(
         },
         Torus => match d {
             North => Some((x, y.checked_sub(1).unwrap_or(height - 1))),
-            South => Some((x, (y + 1) % width)),
+            South => Some((x, (y + 1) % height)),
             East => Some(((x + 1) % width, y)),
             West => Some((x.checked_sub(1).unwrap_or(width - 1), y)),
         },
